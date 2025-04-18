@@ -8,8 +8,8 @@ from dht import DHT11
 from ssd1306 import SSD1306_I2C
 
 # WiFi Configuration
-SSID = "Mirza Wahab 1"
-PASSWORD = "wahab973"
+SSID = "HAIDER"
+PASSWORD = "Gulistan1032"
 sta = network.WLAN(network.STA_IF)
 sta.active(True)
 sta.connect(SSID, PASSWORD)
@@ -482,4 +482,4 @@ while True:
     
     except Exception as e:
         print("Server error:", e)
-        conn.close()
+        conn.close() 
